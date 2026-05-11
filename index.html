@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>You're on the List — Realtor's Inspection Challenge | GText</title>
+  <meta name="description"
+    content="You're registered for the Realtor's Inspection Challenge. Join our official WhatsApp group for updates, reminders and training details." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Noise Texture Overlay -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Ambient Blobs -->
+  <div class="blob blob-1" aria-hidden="true"></div>
+  <div class="blob blob-2" aria-hidden="true"></div>
+  <div class="blob blob-3" aria-hidden="true"></div>
+
+  <!-- Top Bar -->
+  <header class="topbar" role="banner">
+    <div class="topbar-inner">
+      <span class="brand-mark">GText</span>
+      <span class="topbar-tag">Realtor's Inspection Challenge</span>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="page-main" role="main">
+
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-heading">
+
+      <div class="hero-text">
+        <p class="eyebrow" aria-label="Status">You're registered ✅</p>
+        <h1 class="hero-heading" id="hero-heading">
+          You're on the List
+        </h1>
+        <p class="hero-sub">
+          For the <strong>Realtor's Inspection Challenge.</strong> Join our
+          official WhatsApp group for updates, reminders and training details.
+        </p>
+      </div>
+      <!-- CTA Card -->
+      <div class="cta-card" aria-label="Join WhatsApp group section">
+        <div class="cta-card-header">
+          <div class="wa-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.12 1.532 5.852L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.37l-.36-.214-3.724.976.993-3.634-.235-.374A9.816 9.816 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z" />
+            </svg>
+          </div>
+          <div class="cta-card-title-group">
+            <h2 class="cta-card-title" id="cta-card-title">Join the Official WhatsApp Group</h2>
+            <p class="cta-card-subtitle">Get all updates, reminders & training details here.</p>
+          </div>
+        </div>
+
+        <ul class="benefit-list" aria-label="What you get in the group">
+          <li class="benefit-item">
+            <span class="benefit-dot" aria-hidden="true"></span>
+            Challenge schedule & venue reminders
+          </li>
+          <li class="benefit-item">
+            <span class="benefit-dot" aria-hidden="true"></span>
+            Inspection training tips & resources
+          </li>
+          <li class="benefit-item">
+            <span class="benefit-dot" aria-hidden="true"></span>
+            Direct communication from the GText team
+          </li>
+          <li class="benefit-item">
+            <span class="benefit-dot" aria-hidden="true"></span>
+            Zero spam. 100% relevant updates only.
+          </li>
+        </ul>
+
+        <a id="whatsapp-cta-btn" href="https://chat.whatsapp.com/YOUR_GROUP_INVITE_LINK" target="_blank"
+          rel="noopener noreferrer" class="cta-btn" aria-label="Join the GText WhatsApp group" role="button">
+          <span class="cta-btn-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.12 1.532 5.852L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.37l-.36-.214-3.724.976.993-3.634-.235-.374A9.816 9.816 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z" />
+            </svg>
+          </span>
+          <span class="cta-btn-text">Join WhatsApp Group Now</span>
+          <span class="cta-btn-arrow" aria-hidden="true">→</span>
+        </a>
+
+        <p class="cta-note" aria-label="Privacy assurance">
+          🔒 Your privacy is protected. We never share your number.
+        </p>
+      </div>
+
+    </section>
+
+    <!-- Social proof ticker -->
+    <section class="ticker-section" aria-label="Recent activity ticker">
+      <div class="ticker-track" aria-live="polite">
+        <div class="ticker-inner" id="ticker-inner">
+          <span class="ticker-item">✅ Chidi just joined the challenge group</span>
+          <span class="ticker-item">✅ Amara registered from Facebook</span>
+          <span class="ticker-item">✅ Emeka is now on the list</span>
+          <span class="ticker-item">✅ Ngozi joined moments ago</span>
+          <span class="ticker-item">✅ Tunde joined the inspection group</span>
+          <span class="ticker-item">✅ Fatima is ready for the challenge</span>
+          <span class="ticker-item">✅ David just signed up</span>
+          <span class="ticker-item">✅ Kemi joined the WhatsApp group</span>
+          <!-- Duplicated for seamless loop -->
+          <span class="ticker-item">✅ Chidi just joined the challenge group</span>
+          <span class="ticker-item">✅ Amara registered from Facebook</span>
+          <span class="ticker-item">✅ Emeka is now on the list</span>
+          <span class="ticker-item">✅ Ngozi joined moments ago</span>
+          <span class="ticker-item">✅ Tunde joined the inspection group</span>
+          <span class="ticker-item">✅ Fatima is ready for the challenge</span>
+          <span class="ticker-item">✅ David just signed up</span>
+          <span class="ticker-item">✅ Kemi joined the WhatsApp group</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="page-footer" role="contentinfo">
+    <p class="footer-text">
+      &copy; <span id="footer-year"></span> GText Holdings. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
