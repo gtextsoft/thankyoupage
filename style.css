@@ -507,6 +507,23 @@ body {
   font-weight: 400;
 }
 
+.cta-note--link {
+  color: var(--text-secondary);
+}
+
+.inline-link {
+  color: var(--wa-green-dark);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  word-break: break-all;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+.inline-link:hover {
+  color: var(--wa-green);
+}
+
 /* ---------- TICKER SECTION ---------- */
 .ticker-section {
   width: 100%;
